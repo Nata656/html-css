@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgb(104, 109, 109);
+    background-image: url("https://front.darkanddarker.com/news_detail_bg.webp");
+ }
+ h1 {
+     color: rgb(255, 255, 255);
+ }
+ p {
+    color: aliceblue;
+ }
+ h2 {
+    color: aliceblue;
+ }
