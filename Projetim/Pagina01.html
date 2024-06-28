@@ -10,6 +10,10 @@
             font-family: 'love';
             src: url(BLKCHCRY.TTF) format('truetype');
         }
+        * {
+            margin: 0;
+            padding: 0;
+        }
         body {
             background-image: url("https://front.darkanddarker.com/news_detail_bg.webp");
             font-family: Arial, sans-serif;
@@ -18,6 +22,11 @@
         .IRONMANCE01 {
             padding: 10px;
             text-align: left;
+            background: linear-gradient(to bottom, #000000, #000000a9);
+            height: 70px;
+            position: fixed;
+            width: 100%;
+              
         }
         .barrinha {
             text-align: center;
@@ -25,15 +34,17 @@
         .borda {
             display: flex;
             align-items: center;
-            border: 5px solid rgb(128, 18, 18);
-            border-radius: 4px;
+            border: 36px solid rgb(128, 18, 18);
             padding: 20px;
             margin: 20px;
+            border-image: url("imagens/B/borda.png");
+            border-image-slice: 19;
+            border-image-repeat: repeat;
         }
         .rafa {
             width: 450px;
             height: 450px;
-            margin-right: 20px;
+            margin-right: 15px;
         }
         .TTRAFAUM {
             max-width: 600px;
@@ -50,28 +61,49 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 24px;
         }
+        .botaoP {
+            position: fixed;
+            top: 25px;
+            right: 1000px;
+        }
+        .botaoL {
+            position: fixed;
+            top: 25px;
+            right: 600px;
+        }
     </style>
 </head>
 <body>
-    <div class="IRONMANCE01">
-        <img src="https://front.darkanddarker.com/logo.webp" alt="Logo" height="90px" width="260px">
+    <span class="IRONMANCE01">
+        <a href="https://www.darkanddarker.com/"><img src="https://front.darkanddarker.com/logo.webp" alt="Logo" height="95px" width="260px"></a>
+        <a href="https://www.darkanddarker.com/play"><img src="imagens/Bo/Play.JPG" alt="botaoplay" width="300px" height="70px" class="botaoP"></a>
+        <a href="imagens/P/MACACO.JPG" download="MACACO.jpeg"><img src="imagens/Bo/L.JPG" alt="botaoplay" width="380px" height="70px" class="botaoL"></a>
+    </span>
+    <div>
+
+
+
+
+
+
     </div>
-    <div style="font-family: love; font-size: 80px; color: gold; text-align: center;">Best Players in the world</div>
+    <div style="font-family: love; font-size: 80px; color: gold; text-align: center; padding-top: 110px;">Best Players in the world</div>
     <div class="borda">
         <div class="rafa">
-            <img src="imagens/257159087_4834849656559367_5813752232476990777_n.jpg" width="450px" height="450px" alt="rafa">
+            <img src="imagens/P/257159087_4834849656559367_5813752232476990777_n.jpg" width="450px" height="450px" alt="rafa">
         </div>
         <div class="TTRAFAUM">
             <h1>RAFAUM</h1>
             <p>Classe: Rougue</p>
             <p>Arma Preferida: Stileto</p>
-            <p>Tempo de Jogo: 82Hrs</p>
+            <p>Tempo de Jogo: 87Hrs</p>
             <p>Gameplay: O mais viciado de todos, se pudesse jogava 24h por dia, joga até sozinho mas o seu maior desejo é ter um tanque de guerra humano para realizar suas gameplays. Fala que só joga para se divertir mas fica puto quando morre com inventario cheio.</p>
+            <p><a href="https://steamcommunity.com/profiles/76561198164077450" target="_blank"><img src="imagens/Steam.png" width="70" height="70" alt="Steam"></a><a href="https://www.instagram.com/rafael.prado.7737/" target="_blank"><img src="imagens/instagram-logo.png" width="70px" height="70px" alt=""></a></p>
         </div>
     </div>
     <div class="borda">
         <div class="rafa">
-            <img src="imagens/Capturar.JPG" width="450px" height="450px" alt="rafa">
+            <img src="imagens/P/Capturar.JPG" width="450px" height="450px" alt="rafa">
         </div>
         <div class="TTRAFAUM">
             <h1>LUQUETE</h1>
@@ -79,11 +111,12 @@
             <p>Arma Preferida: Arco Recurvo</p>
             <p>Tempo de Jogo: 23Hrs</p>
             <p>Gameplay: O arqueiro do time, o arqueiro dos arqueiros, não acerta a poha de uma flecha, e quando tem oportunidade de acertar o time entra na frente dele.</p>
+            <p><a href="https://steamcommunity.com/profiles/76561199033221136" target="_blank"><img src="imagens/Steam.png" width="70" height="70" alt="Steam"></a><a href="https://www.instagram.com/_lucas_nc/" target="_blank"><img src="imagens/instagram-logo.png" width="70px" height="70px" alt=""></a></p>
         </div>   
     </div>
     <div class="borda">
         <div class="rafa">
-            <img src="imagens/Capturar1.JPG" width="450px" height="450px" alt="rafa">
+            <img src="imagens/P/Capturar1.JPG" width="450px" height="450px" alt="rafa">
         </div>
         <div class="TTRAFAUM">
             <h1>NATANZIL</h1>
@@ -91,10 +124,14 @@
             <p>Arma Preferida: Alfange</p>
             <p>Tempo de Jogo: 23Hrs</p>
             <p>Gameplay: O tanque do time, cego para matar os inimigos nem que isso custe sua vida, tão cego que cai na armadilha do próprio Arqueiro .</p>
+            <p><a href="https://steamcommunity.com/profiles/76561199064338580/" target="_blank"><img src="imagens/Steam.png" width="70" height="70" alt="Steam"></a><a href="https://www.instagram.com/nata.desouza.169/" target="_blank"><img src="imagens/instagram-logo.png" width="70px" height="70px" alt=""></a></p>
         </div>
     </div>    
     <div class="barrinha">
         <img src="https://front.darkanddarker.com/hr.png" alt="Barrinha">
+    </div>
+    <div class="IRONMANCE01">
+        <img src="https://front.darkanddarker.com/logo.webp" alt="Logo" height="180px" width= 490px" style="display: block; margin: 0 auto;">
     </div>
 </body>
 </html>
